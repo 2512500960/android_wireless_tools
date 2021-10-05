@@ -7,7 +7,7 @@ LOCAL_PATH:=$(call my-dir)
 
 
 # GENERAL
-MY_CFLAGS	:= -g -Wall -W -O3 -Wno-unused-but-set-variable -Wno-array-bounds -DANDROID
+MY_CFLAGS	:= -g -Wall -W -O3 -Wno-unused-but-set-variable -Wno-array-bounds -DANDROID -Wno-self-assign
 MY_C_INCLUDES	:= 
 MY_SHARED_LIBS	:= 
 MY_STATIC_LIBS	:= 

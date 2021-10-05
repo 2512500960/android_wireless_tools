@@ -11,7 +11,7 @@
 
 #ifndef IWLIB_H
 #define IWLIB_H
-
+#define bzero(buffer, size) memset(buffer, 0, size)
 /***************************** INCLUDES *****************************/
 
 /* Standard headers */
